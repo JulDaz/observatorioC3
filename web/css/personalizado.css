@@ -1,0 +1,270 @@
+/* Logo */
+
+@media (max-width: 991px) {
+    #header {
+        background: rgba(6, 12, 34, 0.98);
+        height: 110px;
+        padding: 15px 0;
+        transition: all 0.5s;
+    }
+}
+
+#logofoto {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 0;
+    width: 200px;
+}
+
+#header.header-scrolled, #header.header-fixed {
+    background: rgba(6, 12, 34, 0.98);
+    height: 80px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+/* Inicio */
+
+#intro {
+    background: url(../img/intro-bg.jpg) top center !important;
+}
+
+#schedule, #sponsors {
+    background: url(../img/about-bg.jpg) top center !important;
+}
+
+#faq {
+    background: url(../img/stars.jpeg) top center !important;
+}
+
+
+#speakers {
+    padding: 60px 0 30px 0;
+    background-image: url(../img/galaxy.jpg);
+}
+
+#venue {
+    background-image: url(../img/fondo2.jpg);
+}
+
+#hotels {
+    background-image: url(../img/about-bg.jpg);
+}
+
+.boton {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #54aef8;
+}
+
+.boton {
+    border: 2px solid #ff7c94;
+    background-color: #ff7c94;
+}
+
+/* Botón Intro */
+#intro .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#354857 50%, rgba(101, 111, 150, 0.15) 52%);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#intro .play-btn:hover {
+    background: radial-gradient(#000000 50%, rgba(101, 111, 150, 0.15) 52%);
+}
+
+/* Colores intro */
+#intro h1 span {
+    color: #ff7c94;
+}
+
+#intro .about-btn {
+    border: 2px solid #ffffff;
+    background-color: #354857;
+}
+
+#intro .about-btn:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.nav-menu > li > a:before {
+    background-color: #ff7c94;
+}
+
+.nav-menu a {
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+.boton {
+    border: 2px solid #ff7c94;
+}
+
+a {
+    color: #ffffff;
+}
+
+#intro:before {
+    content: "";
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#intro h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff7c94;
+}
+
+#speakers {
+    padding: 60px 0 30px 0;
+    background-color: #dee2e8;
+}
+
+.section-header p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+a.bottom {
+    color: #ff7c94;
+}
+
+#speakers .speaker .details {
+    background: #ff7c94bd;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    right: 0;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.section-header::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #ff7c94;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+boton {
+    color:#ffffff;
+}
+
+b, strong {
+    font-weight: bolder;
+    color: #778cd5;
+}
+
+#schedule .schedule-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ff7c94;
+    text-decoration: underline;
+}
+
+#schedule .nav-tabs a.active {
+    background-color: #ff7c94;
+    color: #fff;
+}
+
+#schedule .schedule-item p {
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#schedule .schedule-item {
+    transition: background-color ease-in-out 1000s;
+}
+
+#venue .venue-gallery {
+    overflow: hidden;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+#venue .venue-gallery img {
+    transition: all ease-in-out 0.4s;
+    border-radius: 10px;
+}
+
+#gallery .gallery-carousel .center {
+    border: 6px solid #ff7c94;
+    margin: -10px;
+    box-sizing: content-box;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+}
+
+#gallery .owl-dot.active {
+    background-color: #ff7c94;
+}
+
+#gallery {
+    padding: 60px;
+    overflow: hidden;
+    background-color: #4c324f;
+}
+
+.fondo-login {
+    background-image: url("https://www.uniradioserver.com/media/news_thumbs/201902/20190226074854_179.jpg");    
+}
